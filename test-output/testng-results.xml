@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-18T02:01:14 IST" name="Suite" finished-at="2022-10-18T02:02:39 IST" duration-ms="85201">
+  <suite started-at="2022-10-18T02:51:41 IST" name="Suite" finished-at="2022-10-18T02:53:19 IST" duration-ms="97247">
     <groups>
     </groups>
-    <test started-at="2022-10-18T02:01:14 IST" name="Test" finished-at="2022-10-18T02:02:39 IST" duration-ms="85201">
+    <test started-at="2022-10-18T02:51:41 IST" name="Test" finished-at="2022-10-18T02:53:19 IST" duration-ms="97247">
       <class name="Com.OrangeHRM.TestCases.ConfigurationPageTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Com.OrangeHRM.TestCases.ConfigurationPageTest@517566b]" started-at="2022-10-18T02:02:18 IST" name="Setup" finished-at="2022-10-18T02:02:25 IST" duration-ms="7159" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Com.OrangeHRM.TestCases.ConfigurationPageTest@517566b]" started-at="2022-10-18T02:52:41 IST" name="Setup" finished-at="2022-10-18T02:52:46 IST" duration-ms="5710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="ConfigList()[pri:0, instance:Com.OrangeHRM.TestCases.ConfigurationPageTest@517566b]" started-at="2022-10-18T02:02:25 IST" name="ConfigList" finished-at="2022-10-18T02:02:39 IST" duration-ms="13703" status="PASS">
+        <test-method signature="ConfigList()[pri:0, instance:Com.OrangeHRM.TestCases.ConfigurationPageTest@517566b]" started-at="2022-10-18T02:52:46 IST" name="ConfigList" finished-at="2022-10-18T02:53:18 IST" duration-ms="32114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigList -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.OrangeHRM.TestCases.ConfigurationPageTest@517566b]" started-at="2022-10-18T02:02:39 IST" name="TearDown" finished-at="2022-10-18T02:02:39 IST" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.OrangeHRM.TestCases.ConfigurationPageTest@517566b]" started-at="2022-10-18T02:53:18 IST" name="TearDown" finished-at="2022-10-18T02:53:19 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- Com.OrangeHRM.TestCases.ConfigurationPageTest -->
       <class name="Com.OrangeHRM.TestCases.HomepageTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Com.OrangeHRM.TestCases.HomepageTest@74bada02]" started-at="2022-10-18T02:01:14 IST" name="Setup" finished-at="2022-10-18T02:01:25 IST" duration-ms="11233" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Com.OrangeHRM.TestCases.HomepageTest@74bada02]" started-at="2022-10-18T02:51:41 IST" name="Setup" finished-at="2022-10-18T02:51:48 IST" duration-ms="7088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="EmployeeName()[pri:0, instance:Com.OrangeHRM.TestCases.HomepageTest@74bada02]" started-at="2022-10-18T02:01:25 IST" name="EmployeeName" finished-at="2022-10-18T02:01:40 IST" duration-ms="15259" status="FAIL">
+        <test-method signature="EmployeeName()[pri:0, instance:Com.OrangeHRM.TestCases.HomepageTest@74bada02]" started-at="2022-10-18T02:51:48 IST" name="EmployeeName" finished-at="2022-10-18T02:52:05 IST" duration-ms="16593" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "Com.OrangeHRM.TestCases.HomepageTest.logger" is null]]>
@@ -67,29 +67,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmployeeName -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.OrangeHRM.TestCases.HomepageTest@74bada02]" started-at="2022-10-18T02:01:40 IST" name="Teardown" finished-at="2022-10-18T02:01:41 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.OrangeHRM.TestCases.HomepageTest@74bada02]" started-at="2022-10-18T02:52:05 IST" name="Teardown" finished-at="2022-10-18T02:52:06 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- Com.OrangeHRM.TestCases.HomepageTest -->
       <class name="Com.OrangeHRM.TestCases.LoginpageTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:01:41 IST" name="Setup" finished-at="2022-10-18T02:01:46 IST" duration-ms="5671" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:52:06 IST" name="Setup" finished-at="2022-10-18T02:52:11 IST" duration-ms="5639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="OrangeHRMPageTitle()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:01:46 IST" name="OrangeHRMPageTitle" finished-at="2022-10-18T02:01:57 IST" duration-ms="11010" status="PASS">
+        <test-method signature="OrangeHRMPageTitle()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:52:11 IST" name="OrangeHRMPageTitle" finished-at="2022-10-18T02:52:22 IST" duration-ms="10725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrangeHRMPageTitle -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:01:57 IST" name="Teardown" finished-at="2022-10-18T02:01:58 IST" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:52:22 IST" name="Teardown" finished-at="2022-10-18T02:52:22 IST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:01:58 IST" name="Setup" finished-at="2022-10-18T02:02:04 IST" duration-ms="6728" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:52:22 IST" name="Setup" finished-at="2022-10-18T02:52:28 IST" duration-ms="5760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="OrangeUername()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:02:04 IST" name="OrangeUername" finished-at="2022-10-18T02:02:17 IST" duration-ms="13000" status="FAIL">
+        <test-method signature="OrangeUername()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:52:28 IST" name="OrangeUername" finished-at="2022-10-18T02:52:40 IST" duration-ms="12273" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
@@ -131,7 +131,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrangeUername -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:02:18 IST" name="Teardown" finished-at="2022-10-18T02:02:18 IST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.OrangeHRM.TestCases.LoginpageTest@2f40e5db]" started-at="2022-10-18T02:52:40 IST" name="Teardown" finished-at="2022-10-18T02:52:41 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
